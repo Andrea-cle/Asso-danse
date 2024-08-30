@@ -1,35 +1,35 @@
 import React from "react";
-import { link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav>
       <ul>
         <li>
-          <link to="/" />
+          <Link to="/" />
           Accueil
         </li>
         <li>
-          <link to="/about" />A propos{" "}
+          <Link to="/about" />A propos{" "}
         </li>
         <li>
-          <link to="/cours" />
+          <Link to="/cours" />
           Les cours
         </li>
         <li>
-          <link to="/function" />
+          <Link to="/function" />
           Fonctionnement
         </li>
         <li>
-          <link to="/faq" />
+          <Link to="/faq" />
           FAQ
         </li>
         <li>
-          <link to="/petillantes" />
+          <Link to="/petillantes" />
           Les Pétillantes
         </li>
         <li>
-          <link to="/nous" />
+          <Link to="/nous" />
           Qui sommes nous ?
         </li>
       </ul>
