@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 # Danse Margaux
 
-Bienvenue sur le dépôt du projet **Danse Margaux** ! Ce projet a pour but de créer un site web dédié à la danse, où les utilisateurs peuvent découvrir les cours, les événements, et les actualités liés à l'école de danse Margaux.
+Bienvenue sur le dépôt du projet Danse Margaux ! Ce projet a pour but de créer un site web dédié à la danse, où les utilisateurs peuvent découvrir les cours, les événements, et les actualités liés à l'école de danse Margaux.
 
 ## Table des matières
 
@@ -24,13 +24,12 @@ Bienvenue sur le dépôt du projet **Danse Margaux** ! Ce projet a pour but de c
 
 ## Aperçu du projet
 
-Le site **Danse Margaux** vise à promouvoir l'école de danse et à offrir une interface conviviale pour les élèves et les passionnés de danse. Vous y trouverez des informations sur les cours, les professeurs, les événements spéciaux et bien plus encore.
+Le site Danse Margaux vise à promouvoir l'école de danse de ma ville et à offrir une interface conviviale pour les élèves et les passionnés de danse. Vous y trouverez des informations sur les cours, les professeurs, les événements spéciaux et bien plus encore.
 
 ## Fonctionnalités
 
-- Page d'accueil avec une présentation de l'école
-- Calendrier des cours et événements
-- Galerie photos et vidéos des événements
+- Page d'accueil avec un slider de photos de l'école et divers évenements
+- Calendrier des cours et un agenda pour les événements
     <!-- - Pages dédiées pour chaque style de danse enseigné -->
     <!-- - Système d'inscription en ligne -->
   <!-- - Blog avec des articles sur la danse -->
@@ -62,7 +61,7 @@ Le site **Danse Margaux** vise à promouvoir l'école de danse et à offrir une 
 Pour démarrer le serveur localement :
 
 ```bash
-npm dev
+npm run dev
 ```
 
 Ensuite, ouvrez votre navigateur à l'adresse [http://localhost:5173/](http://localhost:5173/).
