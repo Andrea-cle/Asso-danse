@@ -1,6 +1,6 @@
 import React from "react";
 import "./slider.css";
-import HomePage from "../HomePage/HomePage";
+// import HomePage from "../HomePage/HomePage";
 
 const Slider = ({ images }) => {
   //Utilisation de useState pour gérer l'index de l'image actuellement affichée
@@ -23,7 +23,7 @@ const Slider = ({ images }) => {
   };
 
   // Fonction pour afficher le nom alternatif des images
-  const altimages = [];
+  const altImages = [];
 
   return (
     <div className="slider">
