@@ -14,6 +14,10 @@ const HomePage = () => {
   return (
     <section className="home-page">
       <Slider images={images} />
+
+      <h2>Bienvenue à DANSE MARGAUX</h2>
+      <h3>AGENDA</h3>
+      <p>Prochains évènements à consulter ici</p>
     </section>
   );
 };

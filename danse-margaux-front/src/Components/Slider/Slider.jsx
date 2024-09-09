@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./slider.css";
 // import HomePage from "../HomePage/HomePage";
 
@@ -23,13 +23,31 @@ const Slider = ({ images }) => {
   };
 
   // Fonction pour afficher le nom alternatif des images
-  const altImages = [];
+  const altImages = [
+    "Photo de danseurs de Cabaret",
+    "Photo de danse cardio",
+    "Photo de cours de fitness",
+    "Photo de danseuse pole danse",
+    "Danseuse de street jazz",
+  ];
 
   return (
     <div className="slider">
-      {images.map((image, index) => {
-        <img key={index} src={image} alt={`slide ${index + 1}`} />;
-      })}
+      {/* Affichage de l'image actuelle en fonction de m'index avec le texte alternantif */}
+      <img
+        src={images[currentImageIndex]}
+        alt={`${altImages[currentImageIndex]} ${currentImageIndex + 1}`}
+      />
+
+      {/* {Bouton pour revenir à la diapo précédente} */}
+      <button className="prev-btn" onClick={prevSlide}>
+        &#10094; {/* flèche Unicode */}
+      </button>
+
+      {/* {Bouton pour passer à la diapo précédente} */}
+      <button className="next-btn" onClick={nextSlide}>
+        &#10095; {/*Flèche droit Unicode*/}
+      </button>
     </div>
   );
 };
