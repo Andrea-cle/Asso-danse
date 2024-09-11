@@ -40,3 +40,14 @@
 .read-the-docs {
   color: #888;
 }
+
+/* texte qui laisse passer l'image par transparence 
+
+.text{
+  background: url(img.png);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+} */

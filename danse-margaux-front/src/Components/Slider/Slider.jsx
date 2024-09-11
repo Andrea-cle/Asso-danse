@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./slider.css";
+import "./slider.scss";
 // import HomePage from "../HomePage/HomePage";
 
 const Slider = ({ images }) => {

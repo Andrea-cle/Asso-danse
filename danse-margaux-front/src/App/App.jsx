@@ -7,7 +7,7 @@ import HomePage from "../Pages/HomePage/HomePage";
 import FaqSection from "../Pages/FaqSection/FaqSection";
 import Navbar from "../Components/Navbar/Navbar";
 import Calendar from "../Components/Calendar/Calendar";
-import FunctioningPage from "../Pages/FunctioningPage/FunctioningPage";
+// import FunctioningPage from "../Pages/FunctioningPage/FunctioningPage";
 // import Petillantes from "../Petillantes/Petillantes";
 
 const App = () => {

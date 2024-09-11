@@ -1,5 +1,5 @@
-import React from "react-router-dom";
+// import React from "react-router-dom";
 
-const FunctioningPage = () => {};
+// const FunctioningPage = () => {};
 
-export default FunctioningPage;
+// export default FunctioningPage;
